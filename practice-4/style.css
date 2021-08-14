@@ -1,0 +1,151 @@
+.image-background {
+  position: fixed;
+  right: 0;
+  width: 50%;
+  height: 50%;
+  background: url(./image.jpeg), no-repeat, center;
+  background-size: cover;
+  display: inline-block;
+  border: 1px solid black;
+  display: block;
+}
+
+.border {
+  border: 2px solid black;
+}
+
+.position-relative {
+  position: relative;
+  width: 500px;
+  height: 500px;
+}
+
+.absolute-child {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  color: #1878f3;
+}
+
+.button-noclick {
+  color: #1878f3;
+  transition: 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.button-noclick:hover {
+  color: red;
+}
+
+.button-noclick:active {
+  color: yellowgreen;
+  width: 500px;
+  height: 200px;
+  background-color: seagreen;
+}
+
+/* p {
+  font-style: italic;
+  text-align: left;
+  background-image: "./image.jpeg";
+  position: ;
+} */
+
+/* body {
+  font-size: 16px;
+}
+
+p {
+  font-size: 0.875em;
+  font-weight: 600;
+  text-decoration: line-through;
+}
+
+a {
+  border: 1px solid red;
+  display: block;
+}
+
+div {
+  border: 1px solid red;
+}
+
+span {
+  display: inline-block;
+  width: 500px;
+} */
+
+/* @import './test.css'; */
+
+/* body {
+  padding: 50px !important;
+}
+
+body {
+  padding: 10px;
+}
+
+
+p {
+  color: brown !important;
+}
+
+
+
+
+
+p {
+  color: green !important;
+}
+
+p:nth-child(2n) {
+  color: red;
+}
+
+
+p#test span {
+  color: yellow;
+} */
+
+/* 
+p:nth-child(2) {
+  color: red;
+} */
+
+/* p {
+  color: darkblue;
+}
+
+
+
+:first-child {
+  color: red;
+}
+
+
+div:last-child {
+  color: green;
+} */
+
+/* body {
+  padding: 50px;
+}
+
+button {
+  color: red;
+}
+
+button:hover {
+  color: green;
+}
+
+button:active {
+  color: blue;
+}
+
+input {
+  color:tomato;
+}
+
+input:focus {
+  color: blueviolet;
+} */
