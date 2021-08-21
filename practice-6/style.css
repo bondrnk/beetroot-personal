@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1[title] {
+  color: red;
+}
+
+a[href="https://google.com"]
+{
+  color: green;
+}
+
+.test {
+  color: brown;
+}
+
+#test {
+  color: aquamarine;
+}
+
+p > span {
+  color: red;
+}
+
+p::first-line {
+  color: blue;
+}
