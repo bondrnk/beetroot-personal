@@ -1,0 +1,67 @@
+body {
+  font-family: "Proxima Nova Regular", sans-serif;
+  font-size: 14px;
+  background-color: #464f54;
+}
+
+.body-container {
+  width: 1200px;
+
+  margin: 0 auto;
+}
+
+.header {
+  margin-bottom: -140px;
+}
+
+.header-container {
+  margin-top: 40px;
+
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.header__title-wrapper {
+  padding: 25px 0 40px 60px;
+  width: 875px;
+  display: flex;
+  justify-content: flex-end;
+  background-color: black;
+}
+
+.header__title {
+  justify-self: flex-start;
+  color: white;
+  padding-bottom: 5px;
+
+  font-size: 48px;
+}
+
+.test {
+  border-bottom: 2px solid grey;
+  width: 100%;
+}
+
+.header__title--description {
+  color: white;
+  font-size: 26px;
+  opacity: 60%;
+}
+
+.header__config-wrapper {
+  width: 500px;
+
+  background-color: #f1b92b;
+}
+
+.main-container {
+  margin: -50px auto;
+
+  width: 1060px;
+  height: 100vh;
+
+  background-color: white;
+}

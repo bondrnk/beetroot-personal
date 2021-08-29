@@ -1,0 +1,22 @@
+* {
+  padding: 0;
+  margin: 0;
+
+  box-sizing: border-box;
+}
+
+body {
+  background-color: silver;
+  font-size: 14px;
+}
+
+.wrapper {
+  padding: 50px;
+}
+
+.icon-test {
+}
+
+.color-red {
+  color: red;
+}
