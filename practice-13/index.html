@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Icon -->
+    <link rel="shortcut icon" href="../../images/favicon.ico" type="image/x-icon" />
+
+    <!-- Normalize -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- My style -->
+    <link rel="stylesheet" href="./style.css" />
+
+</head>
+
+<body>
+    <!-- <svg class="svg-demo" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+        <line class="svg-demo__line" x1="32" x2="35" y1="32" y2="40" stroke="red" stroke-width="2" stroke-linecap="" />
+    </svg> -->
+
+    <!-- Вот эта штука и заменит нам select -->
+    <label class="selectGeneral" placeholder="select your OS...">
+        <!-- Да, да, placeholder тоже поддерживается -->
+        <!-- Если этот radio выбран - select открыт, если нет - select закрыт -->
+        <input type="radio" name="OS">
+
+        <!-- Это wrapper для вариантов выбора -->
+        <div>
+            <!-- Группа radio и есть аналог оригинальных option -->
+            <input type="radio" name="OS" value="linux" id="OS[linux]">
+            <!-- Аналог видимой части option -->
+            <label for="OS[linux]">linux</label>
+
+            <input type="radio" name="OS" value="windows" id="OS[windows]">
+            <label for="OS[windows]">windows</label>
+
+            <input type="radio" name="OS" value="other" id="OS[other]">
+            <label for="OS[other]">other</label>
+        </div>
+    </label>
+</body>
+
+</html>
