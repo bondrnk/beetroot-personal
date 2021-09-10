@@ -1,0 +1,32 @@
+.e-button {
+  padding: 20px;
+
+  cursor: pointer;
+  outline: none;
+  border: none;
+
+  transition: $t-normal;
+
+  background-color: $c-white;
+
+  &:hover {
+    background-color: $c-orange;
+  }
+
+  &__text {
+    color: $c-blue;
+  }
+
+  &--blue {
+    background-color: $c-white-dark;
+    color: $c-white;
+
+    // & > .e-button__text {
+    //   color: $c-white;
+    // }
+
+    &:hover {
+      background-color: $c-red;
+    }
+  }
+}

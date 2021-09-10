@@ -1,2 +1,0 @@
-# beetroot-personal
-beetroot-personal

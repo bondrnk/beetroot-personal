@@ -1,0 +1,24 @@
+.c-header {
+  background-color: $c-blue;
+  color: $c-white;
+
+  &__wrapper {
+    max-width: 400px;
+    width: 100%;
+
+    margin: 0 auto;
+  }
+
+  &__text {
+    text-align: center;
+    color: $c-orange;
+
+    &--red {
+      color: $c-red;
+    }
+
+    &--green {
+      color: $c-green;
+    }
+  }
+}
