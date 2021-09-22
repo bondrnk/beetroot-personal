@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Beetroot | Group project</title>
+  <!-- style -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__wrapper">
+      <div class="header__navigation">
+        <div class="navigation">
+          <div class="navigation__wrapper"></div>
+          <input class="navigation__menu__toggle" type="checkbox" id="menu__toggle" /><label
+            class="navigation__menu__btn" for="menu__toggle"><span></span></label>
+          <nav class="navigation-block">
+            <ul class="navigation__menu">
+              <li class="navigation__item">
+                <a class="link" href="./index.html">Главная</a>
+              </li>
+              <li class="navigation__item">
+                <a class="link" href="./Migda pages/index.html">Migda pages</a>
+              </li>
+              <li class="navigation__item">
+                <a class="link" href="./Ann page/index.html">Ann page</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <div class="header__bg"></div>
+    </div>
+  </header>
+
+  <!-- Section №1 - Migda -->
+  <section class="volmig-general-info">
+    <div class="volmig-general-info__wrapper">
+      <div class="volmig-general-info__subtitle__wrapper">
+        <h2 class="volmig-general-info__subtitle">Передовая IT студия</h2>
+      </div>
+      <div class="volmig-general-info__title__wrapper">
+        <h1 class="volmig-general-info__title">
+          Мы создаем легкие решения сложных задач и проблем
+        </h1>
+      </div>
+      <div class="volmig-general-info__project">
+        <div class="volmig-general-info__link">
+          <a class="link" href="#">Наши проекты</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section #2 - Ann -->
+  <section class="ann-l-contact-us">
+    <div class="ann-l-contact-us__wrapper">
+
+      <!-- Title -->
+      <h2 class="ann-title">Оставить заявку</h2>
+
+      <!-- Form -->
+      <form method="GET" action="#" class="ann-c-contact-us">
+        <div class="ann-c-contact-us__wrapper">
+
+          <!-- Name -->
+          <label class="ann-c-contact-us__item">
+            <div class="ann-c-contact-us__item__title" title="Введите имя">Имя</div>
+            <input class="ann-c-contact-us__input" name="name" type="text" placeholder="Артур Солодкий" required>
+          </label>
+
+          <!-- Email -->
+          <label class="ann-c-contact-us__item">
+            <div class="ann-c-contact-us__item__title" title="Введите почту">Почта
+            </div>
+            <input class="ann-c-contact-us__input" name="email" type="email" placeholder="hello@lastdoor.store"
+              required>
+          </label>
+
+          <!-- Message -->
+          <label class="ann-c-contact-us__item">
+            <div class="ann-c-contact-us__item__title" title="Напишите нам сообщение">Сообщение</div>
+            <textarea class="ann-c-contact-us__textarea" name="message"
+              placeholder="Тут можно писать сообщение..."></textarea>
+          </label>
+
+          <!-- Form button -->
+          <button type="submit" class="ann-c-contact-us__button" title="Нажмите чтобы отправить">
+            <span>Отправить запрос</span>
+          </button>
+
+        </div>
+      </form>
+
+    </div>
+  </section>
+
+</body>
+
+</html>
