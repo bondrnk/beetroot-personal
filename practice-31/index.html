@@ -1,0 +1,40 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Practice-31</title>
+</head>
+
+<body>
+  <script src="./index.js"></script>
+</body>
+
+</html> -->
+<!DOCTYPE html>
+<html>
+
+<body>
+  <div>Начало</div>
+
+  <ul>
+    <li>Информация</li>
+  </ul>
+
+  <div>Конец</div>
+
+  <script>
+    for (let i = 0; i < document.body.childNodes.length; i++) {
+      console.log(document.body.childNodes[i]); // Text, DIV, Text, UL, ..., SCRIPT
+    }
+    // or
+    for (let node of document.body.childNodes) {
+      console.log(node); // покажет все узлы из коллекции
+    }
+  </script>
+  ...какой-то HTML-код...
+</body>
+
+</html>
