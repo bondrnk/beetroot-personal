@@ -1,0 +1,26 @@
+{
+  "name": "beetroot-personal",
+  "version": "1.0.0",
+  "description": "beetroot-practice in beetroot-academy",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "moment": "^2.29.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bondrnk/beetroot-personal.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bondrnk/beetroot-personal/issues"
+  },
+  "homepage": "https://github.com/bondrnk/beetroot-personal#readme"
+}
